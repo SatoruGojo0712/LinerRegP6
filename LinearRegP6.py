@@ -1,3 +1,4 @@
+import streamlit as st
 import pandas as pd    
 import numpy as np  
 import sklearn
@@ -26,7 +27,3 @@ if st.button("Predict Rank"):
 
 st.write("Sample Data")
 st.dataframe(df)     
-
-
-
-
