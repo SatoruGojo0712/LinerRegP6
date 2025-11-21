@@ -17,6 +17,7 @@ model=LinearRegression()
 model.fit(x_train,y_train)
 
 st.title("Rank Predictor")
+print("Neet Mock Test Result Rankings by a Coaching centre, at All India Level of 2020 Neet upcoming Exam")
 st.write("Enter your score to predict your Rank")
 
 Score = st.number_input("Score calculated:", min_value=0.0, step=1.0)
@@ -27,4 +28,5 @@ if st.button("Predict Rank"):
 
 st.write("Sample Data")
 st.dataframe(df)     
+
 
