@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
-df = pd.read_csv("C:\Users\Ravikant\Pictures\AI practicals\2020neetrankscore.csv")
+df = pd.read_csv("2020neetrankscore.csv")
 print (df.head(10))
 
 x = df[['Marks']]
@@ -25,3 +25,4 @@ if st.button("Predict Rank"):
 
 st.write("Sample Data")
 st.dataframe(df)     
+
