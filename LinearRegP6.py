@@ -1,7 +1,7 @@
 import pandas as pd    
 import numpy as np  
-from scikit-learn.model_selection import train_test_split
-from scikit-learn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
 
 df = pd.read_csv("2020neetrankscore.csv")
 print (df.head(10))
@@ -25,5 +25,6 @@ if st.button("Predict Rank"):
 
 st.write("Sample Data")
 st.dataframe(df)     
+
 
 
